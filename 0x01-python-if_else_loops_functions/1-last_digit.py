@@ -7,6 +7,7 @@ number = random.randint(-10000, 10000)
 def last_digit(number):
     return number % 10 if number >= 0 else number % -10
 
+
 num = last_digit(number)
 
 print(f"Last digit of {number} is {num} and is", end=" ")
