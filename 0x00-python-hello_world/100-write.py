@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-number = 98
-print(f"{number:d} Battery street")
+import sys
+sys.stderr.write("and that piece of art is useful - Dora Korpar, 2015-10-19\n")
+exit(1)
